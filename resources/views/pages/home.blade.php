@@ -6,7 +6,7 @@
         <article class="post">
     	    @if($new->img != null)
                 <figure>
-                	<img src="/img/noticias/{{$new->img}}" alt="" class="img-responsive">
+                	<img src="{{$new->img}}" alt="" class="img-responsive">
                 </figure>
                 <!-- elseif($port->iframe)
                     <div class="video">

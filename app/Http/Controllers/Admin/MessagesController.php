@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\MessageWeb;
+use App\Messageweb;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -15,7 +15,7 @@ class MessagesController extends Controller
      */
     public function index()
     {
-        $messages = MessageWeb::all();
+        $messages = Messageweb::all();
         return view('admin.messages.index', compact('messages'));
     }
 
@@ -46,7 +46,7 @@ class MessagesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-     public function show(MessageWeb $message)
+     public function show(Messageweb $message)
     {
         return view('admin.messages.show', compact('message'));
     }
@@ -80,7 +80,7 @@ class MessagesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(MessageWeb $message)
+    public function destroy(Messageweb $message)
     {
 
       $message->delete();

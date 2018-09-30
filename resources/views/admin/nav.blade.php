@@ -2,7 +2,7 @@
   <li class="header">Controles</li>
 <!--Link de inicio-->
     <li {{request()->is('admin') ? 'class=active' : ''}}>
-      <a href="/admin">
+      <a href="/home">
         <i class="fa fa-institution">
         </i> 
         <span>
