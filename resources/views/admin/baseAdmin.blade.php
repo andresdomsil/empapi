@@ -113,7 +113,7 @@
   <!-- Main Footer -->
   <footer class="main-footer">
     <!-- Default to the left -->
-    <strong>Emprendedores S.L.P &reg; 2018.</strong>
+    <strong>EmprendedoreSLP &reg; 2018.</strong>
   </footer>
 
   <!-- Control Sidebar -->
