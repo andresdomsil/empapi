@@ -63,7 +63,7 @@ class NoticiasController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(News $new)
+    public function show(Noticia $new)
     {
         return view('admin.news.show', compact('new'));
     }

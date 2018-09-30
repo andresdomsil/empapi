@@ -10,7 +10,7 @@
 				<h4>Nombre</h4>
 				<ul class="list-group">
 					<li class="list-group-item"> 
-						{{ auth()->user()->names}} {{ auth()->user()->apeP}}
+						{{ auth()->user()->name}} {{ auth()->user()->apeP}}
 					</li>
 				</ul>
 				<h4>Correo</h4>
