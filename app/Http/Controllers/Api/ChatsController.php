@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Chat;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -14,7 +15,7 @@ class ChatsController extends Controller
      */
     public function index()
     {
-        //
+        return Chat::all();
     }
 
     /**

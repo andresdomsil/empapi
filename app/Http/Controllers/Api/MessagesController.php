@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Message;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -14,7 +15,7 @@ class MessagesController extends Controller
      */
     public function index()
     {
-        //
+         return Message::all();
     }
 
     /**
