@@ -16,7 +16,7 @@
                 <div class="content-post">
                     <header class="container-flex space-between">
                         <div class="date">
-                              <span class="c-gray-1">{{$new->fecha->format('Y M d')}}</span>
+                              <span class="c-gray-1">{{ Carbon\Carbon::parse($new->fecha)->format('Y M d')}}</span>
                         </div>
                         <div class="post-category">
                             <span class="category text-capitalize"><a href="#">{{$new->category->name}}</a></span>
