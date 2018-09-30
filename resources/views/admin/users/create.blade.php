@@ -30,16 +30,16 @@
                         <input type="password" class="form-control" name="password" >
                         {!!$errors->first('password','<span class="help-block">:message</span>')!!}
                     </div>
-                    <div class="form-group {{$errors->has('rol_id') ? 'has-error' : ''}}">
+                   <!-- <div class="form-group {$errors->has('rol_id') ? 'has-error' : ''}}">
                         <label>Roles</label>
                         <select class="form-control" name="rol_id">
                         <option value="">Seleccione un rol</option>
-                            @foreach($rols as $rol)
-                                <option value="{{$rol->id}}">{{$rol->name}}</option>
-                            @endforeach
+                            foreach($rols as $rol)
+                                <option value="{$rol->id}}">{$rol->name}}</option>
+                            endforeach
                         </select>
-                        {!!$errors->first('rol_id','<span class="help-block">:message</span>')!!}
-                    </div>
+                        !!$errors->first('rol_id','<span class="help-block">:message</span>')!!}
+                    </div> -->
                     <div class="form-group">
                         <button type="submit" class="btn btn-success">Guardar</button>
                     </div>
