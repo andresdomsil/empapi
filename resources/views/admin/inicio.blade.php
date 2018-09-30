@@ -17,10 +17,10 @@
 				<ul class="list-group">
 					<li class="list-group-item"> {{ auth()->user()->email}}</li>
 				</ul>
-				<h4>Rol</h4>
+				<!--<h4>Rol</h4>
 				<ul class="list-group">
-					<li class="list-group-item">{{ auth()->user()->rol->name}}</li>
-				</ul>
+					<li class="list-group-item">{ auth()->user()->rol->name}}</li>
+				</ul>-->
 			</div>
 		</div>
 	</div>
