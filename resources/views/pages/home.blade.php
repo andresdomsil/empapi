@@ -4,9 +4,9 @@
     <section class="posts container">
     	@foreach($news as $new)
         <article class="post">
-    	    @if($new->foto != null)
+    	    @if($new->img != null)
                 <figure>
-                	<img src="/img/noticias/{{$new->foto}}" alt="" class="img-responsive">
+                	<img src="/img/noticias/{{$new->img}}" alt="" class="img-responsive">
                 </figure>
                 <!-- elseif($port->iframe)
                     <div class="video">
