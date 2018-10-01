@@ -52,7 +52,7 @@ class UsersController extends Controller
         $user->name = $request->get('names');
         $user->apeP = $request->get('apeP');
         $user->email = $request->get('email');
-        $user->rol_id = 1;
+        $user->rol_id = '1';
         $user->password = bcrypt($request->get('password'));
         //$user->rol_id = $request->get('rol_id');;
         $user->save();
