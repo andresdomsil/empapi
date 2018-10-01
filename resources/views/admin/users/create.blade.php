@@ -13,7 +13,7 @@
                     <div class="form-group {{$errors->has('name') ? 'has-error' : ''}}">
                         <label>Nombre(s)</label>
                         <input class="form-control" name="name">
-                        {!!$errors->first('names','<span class="help-block">:message</span>')!!}
+                        {!!$errors->first('name','<span class="help-block">:message</span>')!!}
                     </div>
                     <div class="form-group {{$errors->has('last_name') ? 'has-error' : ''}}">
                         <label>Apellido Paterno</label>
