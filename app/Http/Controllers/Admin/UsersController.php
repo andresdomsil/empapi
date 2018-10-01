@@ -49,7 +49,7 @@ class UsersController extends Controller
         ]);
 
         $user = new User;
-        $user->name = $request->get('names');
+        $user->name = $request->get('name');
         $user->apeP = $request->get('apeP');
         $user->email = $request->get('email');
         $user->rol_id = '1';
