@@ -49,7 +49,7 @@ class UsersController extends Controller
         ]);
 
         $user = new User;
-        $user->names = $request->get('names');
+        $user->name = $request->get('names');
         $user->apeP = $request->get('apeP');
         $user->email = $request->get('email');
         $user->password = bcrypt($request->get('password'));
